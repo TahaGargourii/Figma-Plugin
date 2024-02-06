@@ -1,0 +1,25 @@
+{
+  "name": "PixCleaner",
+  "version": "1.0.0",
+  "description": "Your Figma Plugin",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "webpack --watch"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.85.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
